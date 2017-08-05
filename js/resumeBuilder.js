@@ -168,8 +168,8 @@ education.display = function() {
             var formattedSchool = HTMLonlineSchool.replace("%data%" , education.onlineCourses[onlineCourse].school);
             $(".education-entry").append(formattedSchool);
 
-            var formattedDate = HTMLonlineDates.replace("%data%" , education.onlineCourses[onlineCourse].date);
-            $(".education-entry").append(formattedDate);
+            var formattedDates = HTMLonlineDates.replace("%data%" , education.onlineCourses[onlineCourse].date);
+            $(".education-entry").append(formattedDates);
 
             var formattedUrl = HTMLonlineURL.replace("%data%" , education.onlineCourses[onlineCourse].url);
             $(".education-entry").append(formattedUrl);
