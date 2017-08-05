@@ -1,1 +1,1 @@
-# interactive-resume---udacity
+# interactive-resume-udacity
